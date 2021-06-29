@@ -1,6 +1,8 @@
 @import "../colors";
 
 .categories {
+  margin-bottom: 96px;
+
   &__container {
     display: flex;
     flex-direction: column;
@@ -46,6 +48,7 @@
   &__item_accessories {
     height: 180px;
     width: 100%;
+    margin-bottom: 0;
   }
 
   &__item-sub-title {
@@ -61,6 +64,6 @@
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-    color: #F16D7F;
+    color: map-get($colors, pink-2);
   }
 }

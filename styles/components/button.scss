@@ -1,0 +1,24 @@
+@import "../colors";
+
+.button {
+  text-decoration: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-flex;
+
+  border: 1px solid map-get($colors, pink-1);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: map-get($colors, pink-0);
+
+  padding: 14px 38px;
+
+  &:hover {
+    background-color: map-get($colors, pink-2);
+    color: map-get($colors, light-0)
+  }
+}
